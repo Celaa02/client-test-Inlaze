@@ -1,0 +1,26 @@
+<div *ngFor="let posts of posts" class="card card-body mb-2">
+    <div class="row">
+        <div class="col-md-8">
+            <ul class="two">
+                <li>
+                    id: {{posts._id}}
+                </li>
+                <li>
+                    user: {{posts.user}}
+                </li>
+                <li>
+                    title: {{posts.title}}
+                </li>
+                <li>
+                    content: {{posts.content}}
+                </li>
+            </ul>
+            <button class="btn btn-danger" (click)="deletePost(posts._id)">
+                Delete
+            </button>
+            <a class="btn btn-secondary" [routerLink]="['/inlaze/post/', posts._id]">
+                Edit
+            </a>
+        </div>
+    </div>
+<div class="col-md-4">

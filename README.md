@@ -25,3 +25,29 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Overview:
+This project involves the development of a frontend social network application. Users can seamlessly register, log in, post messages and explore the feed.
+
+Technologies Used:
+
+Frontend: Angular 17
+
+Main Features:
+
+1. Registration and Login:
+
+Implemented a robust registration and login system utilizing JWT authentication for enhanced security.
+2. Main Feed:
+
+The application showcases a dynamic main feed, displaying user-generated posts.
+Users have the ability to post messages with a specified title and content.
+Posts seamlessly integrate into the post menu, appearing at the bottom immediately after sharing.
+3. Post Cards:
+
+Each post card contains essential details, including the user's name, title, content, and publication date.
+Implemented a menu of options on post cards, allowing users to edit or delete their own posts.
+
+Utilized TypeScript with specific typing, ensuring a more structured and maintainable codebase.
+
+Applied SOLID principles to enhance code readability and maintainability.

@@ -1,0 +1,17 @@
+#container {
+    height: 200px;
+    width: 300px;
+    position: relative;
+  }
+  .columna {
+    width: 33%;
+    height: 100%;
+    float: left;
+    
+  }
+  .columna div {
+    height: 25%;
+    width: 99%;
+    margin: 5px;
+    background: red;
+  }
